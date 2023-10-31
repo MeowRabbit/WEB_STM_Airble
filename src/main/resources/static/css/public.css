@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: 'GothicA1_Black';
+	src: url(../assets/font/GothicA1_Black.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_Bold';
+	src: url(../assets/font/GothicA1_Bold.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_ExtraBold';
+	src: url(../assets/font/GothicA1_ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_ExtraLight';
+	src: url(../assets/font/GothicA1_ExtraLight.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_Light';
+	src: url(../assets/font/GothicA1_Light.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_Medium';
+	src: url(../assets/font/GothicA1_Medium.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_Regular';
+	src: url(../assets/font/GothicA1_Regular.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_SemiBold';
+	src: url(../assets/font/GothicA1_SemiBold.ttf);
+}
+
+@font-face{
+	font-family: 'GothicA1_Thin';
+	src: url(../assets/font/GothicA1_Thin.ttf);
+}
+
+
+@font-face{
+	font-family: 'NotoSansKR_Black';
+	src: url(../assets/font/NotoSansKR_Black.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_Bold';
+	src: url(../assets/font/NotoSansKR_Bold.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_ExtraBold';
+	src: url(../assets/font/NotoSansKR_ExtraBold.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_ExtraLight';
+	src: url(../assets/font/NotoSansKR_ExtraLight.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_Light';
+	src: url(../assets/font/NotoSansKR_Light.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_Medium';
+	src: url(../assets/font/NotoSansKR_Medium.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_Regular';
+	src: url(../assets/font/NotoSansKR_Regular.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_SemiBold';
+	src: url(../assets/font/NotoSansKR_SemiBold.ttf);
+}
+
+@font-face{
+	font-family: 'NotoSansKR_Thin';
+	src: url(../assets/font/NotoSansKR_Thin.ttf);
+}
+
+
+body {
+    margin: 0;
+    text-align: left;
+    background-color: #fff;
+    font-family: GothicA1_Medium;
+    font-size: 23px;
+}
+
+input:focus, select:focus, textarea:focus{
+	outline: none;
+}
+
+.container {
+	max-width: 768px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 1024px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.container {
+		max-width: 1920px;
+	}
+}

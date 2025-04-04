@@ -24,7 +24,7 @@
 	
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-			conn = DriverManager.getConnection("jdbc:sqlserver://airble.database.windows.net:1433;DatabaseName=airble", "박기범", "qkrrlqja789!.");
+			conn = DriverManager.getConnection("jdbc:sqlserver://airble.database.windows.net:1433;DatabaseName=DBID", ID, PW);
 			try {
 				stmt = conn.createStatement();
 	
